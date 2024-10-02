@@ -14,6 +14,14 @@ class DOMINGUES_COLORBOARD_API ACustomCube : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ACustomCube();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FLinearColor FinalColor;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UMaterialInstance* Mater;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UStaticMeshComponent* CubeMesh;
 
 protected:
 	// Called when the game starts or when spawned
