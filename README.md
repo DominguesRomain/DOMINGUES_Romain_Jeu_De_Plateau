@@ -15,7 +15,7 @@ TOUCHE: "P" pour faire smapwn un pion et "G" pour faire jouer son tour.
 
 Manque d'ui et de feedback.
 
-Partie devoir 8/10:
+Partie devoir 8 octobre:
 
 Systeme de bonus/malus de case et ysteme de point mis en place. suite a l'absence d'hud pour l'instant, les information apparitront via des prints en au a gauche. Dans les information apparaitront: En blanc, les points actuel du pion ainsi que le nombre de point gagné si il tombe sur une case point. En rose (il me semble), le type de case entre Malus/Bonus/Point. En bleu, le score du Dai (qui te permettra nottement de compter le nombre de case parcouru et ainsi de vérifier si les cases bonus et ùmalus fonctionne.
 
