@@ -6,20 +6,9 @@ I jamais un joueur dépasse le nombre de case nécessaire, il recule du nombre d
 
 Possible de jouer jusqu'a 4 joueur.
 
-Mode automatique enlevable en cochant la bouléenne "auto" du GM.
-
-Les pions savent qu'elles cases ils occupent afin d'évité d'avoir 2 puions sur la meme case. (Pour autant suite un un oublie de push de ma part, la fonction permettant de décaler le pion d'1 case si jamais la case est deja occupé,  n'est pas disponible. je le referai)
-Projet peu rangé...
-
-TOUCHE: "P" pour faire smapwn un pion et "G" pour faire jouer son tour.
-
-Manque d'ui et de feedback.
-
 Partie devoir 8 octobre:
 
 Systeme de bonus/malus de case et ysteme de point mis en place. suite a l'absence d'hud pour l'instant, les information apparitront via des prints en au a gauche. Dans les information apparaitront: En blanc, les points actuel du pion ainsi que le nombre de point gagné si il tombe sur une case point. En rose (il me semble), le type de case entre Malus/Bonus/Point. En bleu, le score du Dai (qui te permettra nottement de compter le nombre de case parcouru et ainsi de vérifier si les cases bonus et ùmalus fonctionne.
-
-Il y a bcp d'info en publique dans le GM, dans le Player et dans le pion.
 
 Le mode auto est désactivé, mais toujours fonctionnel. il suffit de cocher la bouléenne dans le GM.
 
@@ -32,7 +21,7 @@ Nouveau décord (optionnel)
 Merci de ta patience: Romain
 
 
-news Pour le devoir de décembre:
+news Pour le devoir du 2 décembre:
 
 concrétement bcp de chose, mais je pense que ca ce verra, donc je vais plustot dire ce que je n'ai pas fais pour aller plus vite.
 1/ Le c++: tu peux retrouver le code en c++ de mes blueprint pour le jeu collecte sur le visual studio. Pourquoi pas directement dans le jeu ou sur unreal ? eh bien parceque les crashs en boucles et les erreurs qui se multiplie m'ont fait comprendre qu'esssayer de finir je jeu en premier c'est peut etre mieux. 
