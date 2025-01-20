@@ -6,7 +6,7 @@
 #include "ColorManager.generated.h"
 
 UCLASS()
-class YOURPROJECT_API AColorManager : public AActor
+class DOMINGUES_COLORBOARD_API AColorManager : public AActor
 {
 	GENERATED_BODY()
 
@@ -27,4 +27,7 @@ public:
 	// Liste des boules à colorier
 	UPROPERTY(EditAnywhere)
 	TArray<AActor*> Boules;
+	
+	UPROPERTY(EditAnywhere)
+	TArray<AMaterialInstanceActor*> material;
 };

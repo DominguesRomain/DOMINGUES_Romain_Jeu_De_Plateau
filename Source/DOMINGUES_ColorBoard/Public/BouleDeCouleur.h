@@ -5,7 +5,7 @@
 #include "BouleDeCouleur.generated.h"
 
 UCLASS()
-class YOURPROJECT_API ABouleDeCouleur : public AActor
+class DOMINGUES_COLORBOARD_API ABouleDeCouleur : public AActor
 {
 	GENERATED_BODY()
 

@@ -2,7 +2,6 @@
 #include "Math/UnrealMathUtility.h" // Pour FMath::RandRange
 #include "Containers/Array.h"       // Pour TArray
 
-// Constructeur
 AMaBouleDeCouleur::AMaBouleDeCouleur()
 {
 	PrimaryActorTick.bCanEverTick = false;
